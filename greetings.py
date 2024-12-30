@@ -1,0 +1,12 @@
+username = 'Виталий'
+print('Имя пользователя:', username)
+title = 'Заметка'
+print('Заголовок заметки:', title)
+content = 'Описание'
+print('Описание заметки:', content)
+status = 'Статус'
+print('Статус заметки:', status)
+created_date = '28-12-2024'
+print('Дата создания:', created_date)
+issue_date = '31-12-2024'
+print('Дата истечения:', issue_date)
