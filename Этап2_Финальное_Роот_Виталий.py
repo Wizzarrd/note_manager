@@ -164,7 +164,7 @@ def deadline_input():
         else:
             return issue_date
 
-# Функция создания заметки.
+# Функция ввода данных заметки.
 def note_input():
     username = username_input()
     title = add_titles_loop()
@@ -180,6 +180,7 @@ def note_input():
     'issue_date' : issue_date}
     return note
 
+# Функция создания заметки.
 def create_note(notes):
     # Создание новой заметки.
     notes.append(note_input())
