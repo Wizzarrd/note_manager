@@ -17,7 +17,7 @@ new_notes = notes.copy()
 # Если заметки по данному критерию находится, добавляем их в список заметок на удаление.
 delete_criteria = input('Введите имя пользователя или заголовок для удаления заметки: ')
 for i in notes:
-    if delete_criteria in i.get('username') or delete_criteria in i.get('title'):
+    if delete_criteria.lower() in i.get('username').lower() or delete_criteria.lower() in i.get('title').lower():
         notes_to_delete.append(i)
 print('Список заметок на удаление:')
 for i in notes_to_delete:
