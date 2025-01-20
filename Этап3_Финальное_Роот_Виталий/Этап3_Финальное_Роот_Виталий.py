@@ -319,7 +319,7 @@ def create_note():
     return new_note
 
 # Меню:
-def main(notes=None):
+def menu(notes=None):
     if notes is None:
         notes = []
     # Заранее заготовленные заметки:
@@ -394,4 +394,4 @@ ____________________________________________________________________''')
     print('Программа завершилась.')
     return notes
 
-main()
+menu()
